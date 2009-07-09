@@ -1,7 +1,7 @@
-= My Resume =
+= My Resume
 
 I will try to keep an updated resume here of all sorts. Feel free to browse and submit patches ;)
 
-== To generate PDFS ==
+== To generate PDFs
 
 The resumes are source for the latex document preparation system. I use pdflatex to generate the resume pdf files.
