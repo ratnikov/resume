@@ -127,7 +127,7 @@
   \vspace{\headerbuffer}\par\nointerlineskip}
 
 \renewcommand{\subsection}[1]{%
-  \goodbreak\vspace{\secskip}\par\nointerlineskip\vspace{-1em}\textbf{\flushleft{#1}:}\par%
+  \goodbreak\vspace{\secskip}\par\nointerlineskip\vspace{-1em}\textbf{\flushleft{#1}}\par%
 }
 
 % General catch-all for either educational or job affiliation.
