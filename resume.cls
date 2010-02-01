@@ -143,3 +143,7 @@
   \end{tabularx}%
 }%
 
+\newcommand{\techs}[1]{
+  \goodbreak\vspace{\secskip}\par
+  \textbf{Technologies:} #1%
+}%
