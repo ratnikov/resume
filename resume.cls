@@ -147,3 +147,8 @@
   \goodbreak\vspace{\secskip}\par
   \textbf{Technologies:} #1%
 }%
+
+\newcommand{\skills}[1]{
+  \goodbreak\vspace{\secskip}\par
+  \textbf{Skills:} #1%
+}
