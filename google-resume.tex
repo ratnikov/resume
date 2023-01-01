@@ -1,75 +1,73 @@
 \documentclass{resume}
 
 \usepackage{paralist}
+\usepackage{textcomp}
+\newcommand{\textapprox}{\raisebox{0.5ex}{\texttildelow}}
 
 \begin{document}
 
 \author{Dmitry Ratnikov}
-\email{ratnikov@gmail.com}
-\phone{(312) 725 3905}
-\streetaddress{467 Troutman St, \#2E}
-\citystatezip{Brooklyn, NY 11237}
+\email{resume@ratnikoff.com}
+\phone{}
+\streetaddress{ }
+\citystatezip{Brooklyn, NY 11215}
 \maketitle
 
-\section{Skills}
+\section{Recent Accomplishments}
 
-\subsection{}
+\subsection{Proven record of solving the problem and also the problem that caused the problem}
 
 \begin{compactitem}
-  \item 2 years of Ruby on Rails experience with 3 patch contributions (http://bit.ly/h7lRx).
-  \item 2 years of javascript experience: jQuery, unobtrusive javascript, and prototypal inheritance.
-  \item Proficient with Java, including Apache Tomcat and Google Web Toolkit.
-  \item Proficient with C++.
-  \\
-  \item Highly proficient with ruby and javascript unit testing and black-box acceptance testing.
-  \item Fluent in (X)HTML and CSS.
-  \item Maintained Git and Subversion code repositories.
-  \item Used Sphinx to provide full text searching.
+\item Pivoted Software Controls service partially towards Google prod stack: adopted standard Google prod serving while keeping the data within Datastore to reduce cost.
+\item Unified device management around a well managed single host identifier.
+\item Led the team to land Direct to Googler device provisioning while maintaining strict security requirements.
 \end{compactitem}
 
-\section{Work Experience}
-
-\affiliation{Software Engineer at Google, Inc}{June 2010 - Present}
-
-\affiliation{Web Developer at Webitects, Inc}{February 2008 - April 2010}
+\subsection{Organizational influence}
 \begin{compactitem}
-  \item Co-developer for My.SEIU.org organizational portal.
-  \item Lead developer for webitects.com, a CMS site with a built-in blog.
-  \item Lead developer for communitycollab.org social networking portal.
-  \item Created a virtualized staging environment built on VirtualBox.
+\item Leading voice of the tech strategy for the my domain (\textapprox 30 SWEs), balancing positioning the technical stack of the org for the challenges vs. the cost of doing so.
+\item Informed and co-opted SRE partner initiatives to standardize engagement and deployment models. Built an effective onduty to support the former and secured a meaningful inmprovement path for the latter.
+\item Mediated rank-and-file vs. leadership through analysis, inspiration, and depth.
 \end{compactitem}
 
-\techs{Ruby on Rails, Javascript, Sphinx, Git}
-
-\affiliation[(Internship)]{Fermilab Computing Division}{May 2006 - August 2006, May 2007 - August 2007}
+\section{Team skills}
 \begin{compactitem}
-  \item Created TablePlotter web interface to generate statistics plots of database data using Tomcat JSP implementation.
-  \item Implemented client user interface using Google Web Toolkit.
+\item Proven track record of executing tech strategy through delegation.
+\item Mentorship of junior engineers, primarily through delegation of ever more ambiguous chunks of work.
+\item Strong written communications skills (Strategy, Design, Proposals, Escalations).
+\item Setting fun, passionate, and effective culture through example and persuation.
 \end{compactitem}
 
-\techs{Java, GWT, Tomcat, Subversion}
-
-\affiliation[(Internship)]{Argonne National Laboratory}{August 2005 - May 2006}
+\section{Technical Skills}
 \begin{compactitem}
-  \item Researched on applicability of aspect-oriented design practices to MySQL database patching.
-  \item Evaluated FroNTier Distributed Database project usage in the ATLAS experience at CERN.
+  \item Creative approach resulting in more tailored solutions, achieving better quality while keeping costs in check.
+  \item Proven track record to plan and land "change engine mid-air" system modernizations and support others through execution.
+  \item Integrating reliability into tech design: SLOs, alerting, incident management, you name it.
+  \item Full mastery of the Google Java/Kotlin backend stack, accomplished with Golang.
+  \item Full mastery of the backend primitives API (protobufs), database (Spanner), testing. Slight exposure to FrontEnd development.
 \end{compactitem}
 
-\techs{MySQL, C}
-
-\section{Independent Projects}
-\affiliation{Opendata (http://opendata.heroku.com)}{October 2009 - Present}
+\section{Extracurricular}
 \begin{compactitem}
-  \item Developing a system to import and store public data with a JSON API.
-  \item Developing applications to provide visualization of the stored data.
+  \item Private Pilot (\textapprox 450hr ASEL w/ IR).
+  \item Burning Man Ranger Volunteer (6 years)
 \end{compactitem}
 
-\affiliation{Potholes (http://pothole.heroku.com)}{October 2009 - Present}
+\section{Previous Work}
+
+\subsection{Google, Inc}
+
+\affiliation{SWE in corporate device management and security}{2013 - current}
+\affiliation{SWE in Display Ads}{2010 - 2013}
+
+\subsection{Webitects Inc}
+
+\affiliation{Web Developer}{2008 - 2010}
+
 \begin{compactitem}
-  \item Tracks pothole information uploaded by users via twitpic service with automatic geocoding.
+\item Software Reliability Engineer rotation
+\item Display Ads engineer
 \end{compactitem}
-
-\techs{Ruby on Rails, Javascript, Twitter API}
 
 \section{Education}
 
@@ -77,7 +75,5 @@
 
 \affiliation{Bachelor of Science in Computer Science}{August 2003 - December 2007}
 \affiliation{Bachelor of Science in Physics}{August 2003 - December 2007}
-\\\\
-Member of IIT ICPC competition team for 4 years (Mid-Central USA region).
 
 \end{document}
