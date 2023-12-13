@@ -1,4 +1,4 @@
-TARGET=resume.pdf web-resume.pdf rails-resume.pdf google-resume.pdf
+TARGET=google-resume.pdf
 CLASS=resume.cls
 
 all: $(TARGET)
