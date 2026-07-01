@@ -1,4 +1,4 @@
-TARGET=google-resume.pdf
+TARGET=resume.pdf
 CLASS=resume.cls
 
 all: $(TARGET)
@@ -14,7 +14,7 @@ publish: $(TARGET)
 #	dvips $< -o$@
 
 %.pdf: %.tex
-	pdflatex $<
+	lualatex $<
 
 %.ps: %.pdf
 	pdf2ps $<
